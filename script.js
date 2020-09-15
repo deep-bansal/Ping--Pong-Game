@@ -1,6 +1,6 @@
-var ball = document.getElementsByClassName('ball')[0];
-var rod1 = document.getElementById('one');
-var rod2 = document.getElementById('two');
+var ball = document.getElementById('ball');
+var rod1 = document.getElementById('rod1');
+var rod2 = document.getElementById('rod2');
 
 
 const storeName = "PPName";
