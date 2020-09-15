@@ -1,41 +1,41 @@
 body{
-    margin: 0 !important;
-
+   margin: 0 !important;
 }
-.container{
-    height: 100vh;
-    width: 100vw;
+.container {
     position: relative;
     background-color: lightblue;
+    height: 100vh;
+    width: 100vw;
 }
 
-.bars{
+.ball {
+    width: 20px;
     height: 20px;
-    width: 170px;
-    border: 1px solid black;
-    position: absolute;
-    border-radius: 25px;
-
-}
-
-#two{
-    bottom: 0;
-    left: 45%;
-    background-color: yellowgreen;
-}
-
-#one{
-    left: 45%;
-    background-color: orange;
-}
-
-.ball{
-    position: absolute;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    border: 2px solid black;
-    top: 22px;
-    left: 50%;
     background-color: red;
+    position: fixed;
+    top: 20px;
+    left: 52.5%;
+    border-radius: 50%;
+}
+
+#one, #two {
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+#one {
+    background-color: orange;
+    top: 0px;    
+}
+
+#two {
+    background-color: yellowgreen;
+    bottom: 0px;
 }
